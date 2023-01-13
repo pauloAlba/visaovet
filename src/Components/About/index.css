@@ -1,0 +1,27 @@
+.about{
+  background-color: #ffffff;
+  color: #006EA8;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 18px 17px;
+  gap: 15px;
+}
+.about img{
+  width: 350px;
+}
+@media (min-width: 60rem) {
+  .about{
+    flex-direction: column;
+  }
+  .about p{
+    width: 850px;
+  }
+  .about img{
+    width: 450px;
+  }
+
+}

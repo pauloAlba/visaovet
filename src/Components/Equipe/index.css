@@ -1,0 +1,79 @@
+.equipe{
+  background: linear-gradient(272.34deg, #34AAE0 -4.91%, #006EA8 112.42%);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 10px 10px;
+}
+.equipe-tipos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.equipe-tipos div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 150px;
+  height: 210px;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 5px;
+  color: #006EA8;
+}
+
+.equipe span{
+  background-color: #0098DA;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+.equipe .img{
+  margin: 10px;
+  background-image: url(/img//fabiana\ quartiero.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.equipe button{
+  background-color: #34AAE0;
+  color: white;
+  border: none;
+  font-size: 12px;
+  padding: 6px;
+}
+.descricao{
+  width: 900px;
+}
+@media (min-width: 60rem) {
+  .equipe-tipos div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #006EA8;
+  }
+  
+}
+@media (max-width: 60rem) {
+  .descricao{
+    display: none;
+    width: 200px;
+  }
+}

@@ -1,0 +1,44 @@
+.clinica{
+  background: linear-gradient(272.34deg, #34AAE0 -4.91%, #006EA8 112.42%);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 18px 17px;
+  gap: 15px;
+}
+.clinica img{
+  width: 350px;
+}
+@media (min-width: 60rem) {
+  .clinica{
+    background: linear-gradient(272.34deg, #34AAE0 -4.91%, #006EA8 112.42%);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 18px 17px;
+    gap: 15px;
+  }
+  .clinica img{
+    display: none;
+  }
+
+}
+.descricaoLonga{
+  display: none;
+}
+@media (min-width: 60rem) {
+  .descricaoLonga{
+    display: initial;
+    width: 900px;
+  }
+  .descricaoCurta{
+    display: none;
+  }
+}

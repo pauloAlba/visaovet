@@ -1,0 +1,38 @@
+.header{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.menu{
+  color: #006EA8;
+}
+.menu ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+  font-size: 26px;
+}
+
+@media (max-width: 60rem) {
+  .hamburger{
+    display: initial;
+  }
+  .menu{
+    display: none;
+  }
+}
+@media (min-width: 60rem) {
+  .hamburger{
+    display: none;
+  }
+  .menu{
+    display: initial;
+  }
+}

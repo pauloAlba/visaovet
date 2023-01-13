@@ -1,0 +1,17 @@
+.carousel{
+  background-color: #555454;
+  display: flex;
+  background-image: url(/img//carousel01.png);
+  background-size: cover;
+  height: 200px;
+  margin-top: 60px;
+}
+@media (min-width: 60rem) {
+  .carousel{
+    background-color: #555454;
+    display: flex;
+    background-image: url(/img//carousel01.png);
+    background-size: cover;
+    height: 450px;
+  }
+}

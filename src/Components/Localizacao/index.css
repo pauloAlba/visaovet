@@ -1,0 +1,47 @@
+.localizacao{
+  background-color: white;
+  color: #006EA8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 10px 17px;
+  gap: 15px;
+}
+.localizacao-mapa{
+  background-image: url(/img//mapa\ localizacao\ visaovet.png);
+  background-size: contain;
+  height: 270px;
+  width: 320px;
+  gap: 10px;
+  background-color: white;
+}
+.localizacao button{
+  background-color: #34AAE0;
+  color: white;
+  border: none;
+  font-size: 12px;
+  padding: 10px;
+}
+@media (min-width: 60rem) {
+  .localizacao{
+    background-color: white;
+    color: #006EA8;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .localizacao-mapa{
+    background-image: url(/img//mapa\ localizacao\ visaovet.png);
+    background-size: contain;
+    height: 470px;
+    width: 620px;
+    gap: 10px;
+    background-color: white;
+  }
+  .localizacao p{
+    width: 400px;
+  }
+  
+}

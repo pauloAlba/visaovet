@@ -1,0 +1,61 @@
+.servicos{
+  background-color: white;
+  color: #006EA8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding: 10px 17px;
+  gap: 45px;
+}
+.servicos-tipos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.servicos-tipos div{
+  background-color: white;
+  width: 150px;
+  height: 140px;
+}
+.servicos-tipos img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+}
+
+@media (min-width: 60rem) {
+  .servicos{
+    background-color: white;
+    color: #006EA8;
+    display: flex;
+    flex-direction: row;
+  }
+  .servicos-tipos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    background-color: white;
+  }
+  .servicos-tipos div{
+    background-color: white;
+    width: 250px;
+    height: 210px;
+  }
+  .servicos-tipos img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+  }
+  .servicos p{
+    width: 40%;
+  }
+  
+
+}
